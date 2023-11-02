@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-slate-100
+}
+
+
+.slick-arrow {
+  display: none !important;
+}
+
+@media (min-width: 1280px) {
+  .slick-arrow {
+    display: block !important;
+  }
+}
+
+.slick-next:before,
+.slick-prev:before {
+  @apply !text-2xl !text-black hidden xl:block;
+}
