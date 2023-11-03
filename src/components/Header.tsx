@@ -4,9 +4,11 @@ import header from "public/assets/header.jpg";
 
 const Header = () => {
   return (
-    <header className="flex flex-col-reverse md:flex-row">
-      <div className="w-full lg:w-1/2 xl:w-1/3 h-[400px] md:h-[600px] bg-green-900 text-white flex flex-col items-center justify-center p-10 text-justify">
-        <h1 className="text-3xl mb-6 text-warning-300">WELCOME EUCOFFEE</h1>
+    <header className="flex flex-col-reverse md:flex-row ">
+      <div className="w-full max-h-[600px] lg:w-1/2 xl:w-1/3 bg-green-900 text-white flex flex-col items-center justify-center p-10 text-justify">
+        <h1 className="text-3xl mb-6 text-warning-300 text-center">
+          WELCOME EUCOFFEE
+        </h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
           quibusdam excepturi soluta ab eius dolorem libero voluptatibus error
@@ -27,7 +29,7 @@ const Header = () => {
           Explore Now
         </Button>
       </div>
-      <div className="relative h-[400px] md:h-[600px] w-full lg:1/2 xl:w-2/3">
+      <div className="relative h-[500px] md:h-[600px] w-full lg:1/2 xl:w-2/3">
         <Image src={header} alt="header" fill className="" priority />
       </div>
     </header>
