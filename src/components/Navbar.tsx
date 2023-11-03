@@ -53,7 +53,7 @@ export default function HomeNavbar() {
         justify="center"
       >
         <NavbarBrand>
-          <Image src={logo} alt="logo" width={32} height={32} />
+          <Image src={logo} alt="logo" width={32} height={32} priority />
           <p className="font-bold text-inherit ml-2 mr-8">EUCOFFEE</p>
         </NavbarBrand>
 

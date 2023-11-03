@@ -16,9 +16,29 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
-    <div className="max-w-7xl mx-auto ">
+    <div className=" mx-auto px-10">
       <h2 className="text-center text-2xl text-warning-600 font-semibold my-8 ">
         OUR COFFEES
       </h2>

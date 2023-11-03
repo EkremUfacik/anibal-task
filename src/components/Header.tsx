@@ -28,7 +28,7 @@ const Header = () => {
         </Button>
       </div>
       <div className="relative h-[400px] md:h-[600px] w-full lg:1/2 xl:w-2/3">
-        <Image src={header} alt="header" fill className="" />
+        <Image src={header} alt="header" fill className="" priority />
       </div>
     </header>
   );

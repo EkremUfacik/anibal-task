@@ -3,7 +3,7 @@ import coffee from "public/assets/coffee.jpg";
 
 const SectionOur = () => {
   return (
-    <div className="flex md:my-12 gap-4 flex-col md:flex-row">
+    <div className="flex md:my-20 gap-4 flex-col md:flex-row">
       <div className="flex-1 h-[500px]">
         <Image
           src={coffee}
